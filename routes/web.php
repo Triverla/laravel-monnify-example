@@ -22,4 +22,5 @@ Route::post('/pay', [App\Http\Controllers\PaymentController::class, 'redirectToM
 Route::get('/payment/callback', [App\Http\Controllers\PaymentController::class, 'handleGatewayCallback']);
 
 Route::get('/create-account', [App\Http\Controllers\AccountController::class, 'createVirtualAccount']);
-Route::get('/get-account-details', [App\Http\Controllers\AccountController::class, 'getAccountDetails']);
+Route::get('/get-account-details', [App\Http\Controllers\AccountController::class, 'getAccountDetails
+']);
